@@ -242,7 +242,7 @@ a {
 }
 
 .cicero-image {
-    width: 750px;
+    width: auto;
     height: 400px;
     border-radius: 10px;
 }
@@ -358,13 +358,6 @@ a {
 
 }
 
-@media (min-width: 1299px) and (max-width: 1400px) {
-    .cicero-image {
-        height: 400px;
-        width: 100%;
-    }
-}
-
 @media (min-width: 1160px) and (max-width: 1299px) {
     .me-description-text {
         margin-bottom: 25px;
@@ -375,18 +368,10 @@ a {
 
 }
 
-@media (min-width: 955px) and (max-width: 1299px) {
-    .cicero-image {
-        height: 350px;
-        width: 100%;
-    }
-
-}
-
-@media (min-width: 1070px) and (max-width: 1159px) {
+@media (min-width: 1069px) and (max-width: 1159px) {
     .me-description-text {
         margin-bottom: 20px;
-        font-size: 2rem;
+        font-size: 1.95rem;
         line-height: 3.6rem;
 
     }
